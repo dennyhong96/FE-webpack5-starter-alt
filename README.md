@@ -1,3 +1,1 @@
-#### Gsap Animation Build
-
-<img src="src/assets/gsap.gif" width="65%">
+#### Webpack 5 starter template
