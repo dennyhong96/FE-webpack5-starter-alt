@@ -1,7 +1,7 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
-    "at-rule-no-unknown": true,
+    "at-rule-no-unknown": null,
     "declaration-no-important": true,
     "font-family-name-quotes": "always-unless-keyword",
     "function-url-quotes": "always",

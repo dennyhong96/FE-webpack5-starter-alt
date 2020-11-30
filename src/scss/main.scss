@@ -1,2 +1,21 @@
 @import "reset";
+@import "breakpoints";
 @import "base";
+
+h1 {
+  font-size: 3rem;
+  color: crimson;
+  font-weight: 400;
+
+  @include media("<=tablet") {
+    color: coral;
+  }
+
+  @include media(">tablet", "<=900px") {
+    color: cornflowerblue;
+  }
+
+  @include media(">900px", "<=LGdesktop") {
+    color: cyan;
+  }
+}
